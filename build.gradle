@@ -41,7 +41,7 @@ allprojects {
     }
 
     plugins.withId("com.vanniktech.maven.publish.base") {
-        group = "io.github.ahmad-hamwi"
+        group = "com.github.hukjordanjanaq"
         version = "1.0.1"
 
         mavenPublishing {
