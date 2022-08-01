@@ -24,7 +24,7 @@ allprojects {
         jcenter()
     }
 
-    plugins.withId("com.vanniktech.maven.publish") {
+    /*plugins.withId("com.vanniktech.maven.publish") {
         mavenPublish {
             sonatypeHost = "S01"
 
@@ -40,7 +40,7 @@ allprojects {
         }
     }
 
-    /*plugins.withId("com.vanniktech.maven.publish.base") {
+    plugins.withId("com.vanniktech.maven.publish.base") {
         group = "com.github.hukjordanjanaq"
         version = "1.0.1"
 
