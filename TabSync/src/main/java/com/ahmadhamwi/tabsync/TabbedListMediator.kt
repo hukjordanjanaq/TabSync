@@ -19,7 +19,7 @@ import com.google.android.material.tabs.TabLayout.OnTabSelectedListener
  * @param mIsSmoothScroll   Defines the ability of smooth scroll when clicking the tabs of the
  *                          TabLayout.
  */
-class TabbedListMediator(
+public class TabbedListMediator(
     private val mRecyclerView: RecyclerView,
     private val mTabLayout: TabLayout,
     private var mIndices: List<Int>,
